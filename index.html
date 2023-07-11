@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Naruto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/images/logo.png" alt="Logo Naruto">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="hinata" data-name="Hinata" data-description="Ela tem a habilidade byakugan que permite ver através de objetos e incluindo chakra, ilusões, sentimentos e pensamentos alheios.">
+                    <img 
+                    src="./src/images/card-hinata.jpg" alt="Personagem Hinata">
+                </li>
+
+                <li class="personagem" id="itachi" data-name="Itachi" data-description="Com a sua Kekkei Genkai, ele consegue usar genjutsus poderosos próprios de usuários do Sharingan, além de ter uma mira exemplar.">
+                    <img 
+                    src="./src/images/card-itachi.jpg" alt="Personagem Itachi">
+                </li>
+
+                <li class="personagem" id="kaguya" data-name="Kaguya" data-description="Ela pode colocar pessoas para dormir, hipnotizá-las ou apagar suas memórias. Tem grande velocidade, regeneração avançada e utiliza todos os estilos de jutsu.">
+                    <img 
+                    src="./src/images/card-kaguya.jpg" alt="Personagem Kaguya">
+                </li>
+
+                <li class="personagem" id="kakashi" data-name="Kakashi" data-description="Ele possui um Sharingan que prevê e copia todas as técnicas dos adversários, fazendo saber muitos jutsus e é capaz de invocar oito cães ninjas.">
+                    <img 
+                    src="./src/images/card-kakashi.jpg" alt="Personagem Kakashi">
+                </li>
+
+                <li class="personagem" id="naruto" data-name="Naruto" data-description="Ele possui manipulação elemental do vento, regeneração, habilidade de invocar sapos, usuário de energia natural e pode usar o chakra da Kyubi para obter mais poder.">
+                    <img 
+                    src="./src/images/card-naruto.jpg" alt="Personagem Naruto">
+                </li>
+
+                <li class="personagem" id="rock-lee" data-name="Rock-Lee" data-description="Mesmo não sabendo ninjutsu e nem genjutsu, seu taijutsu é excepcional e ele possui a capacidade de abrir os portões de chakra em seu corpo, assim ficando muito mais poderoso.">
+                    <img 
+                    src="./src/images/card-rock-lee.jpg" alt="Personagem Rock-Lee">
+                </li>
+
+                <li class="personagem" id="Sakura" data-name="Sakura" data-description="Ela usa ninjutsus médicos permitindo curar ferimentos fatais, além de conseguir dominar o combate corpo-a-corpo, graças a sua incrível força.">
+                    <img 
+                    src="./src/images/card-sakura.jpg" alt="Personagem Sakura">
+                </li>
+
+                <li class="personagem" id="Sasuke" data-name="Sasuke" data-description="Possui o Sharingan do Clã Uchiha, resistência a venenos, manipulação do fogo e do trovão, além do poder do Susano e manuseio de kunais.">
+                    <img 
+                    src="./src/images/card-sasuke.jpg" alt="Personagem Sasuke">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/images/card-hinata.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Hinata</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ela tem a habilidade byakugan que permite ver através de objetos e incluindo chakra, ilusões, sentimentos e pensamentos alheios.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
