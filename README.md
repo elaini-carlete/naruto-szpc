@@ -4,9 +4,9 @@
 Projeto realizado durante o evento da MapaDev Week. Porém, com alteração do tema x-men para Naruto. 
 
 ## Tecnologias
-HTML
-CSS
-JS
+- HTML
+- CSS
+- JS
 
 ## Objetivos
 - Cards com as imagens de alguns personagens de Naruto.
