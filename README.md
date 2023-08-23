@@ -8,12 +8,12 @@ Projeto realizado durante o evento da MapaDev Week. Porém, com alteração do t
 - Com o objetivo de apresentar as informações de cada personagem quando passar o mouse por cima dos cards. 
 
 ## Desktop Preview
-![](./src/design/naruto-desktop.png)
+![](./src/design/naruto.gif)
 
 
 ### Mobile Preview
 
-![](./src/design/naruto-mobile.png)
+![](./src/design/naruto-mobile.gif)
 
 
 ## Tecnologias
