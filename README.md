@@ -1,7 +1,7 @@
 # Projeto Naruto
 
 ## Descrição
-Projeto realizado durante o evento da MapaDev Week. Porém, com alteração do tema x-men para Naruto. 
+Projeto realizado durante a Semana Do Zero Ao Programador Contratado, evento realizado pelos DevEmDobro. Porém, com alteração do tema x-men para Naruto. 
 
 ## Objetivos
 - Cards com as imagens de alguns personagens de Naruto.
